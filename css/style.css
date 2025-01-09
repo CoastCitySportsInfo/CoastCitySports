@@ -1,0 +1,103 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.p-footer {
+  font-size: 1.3rem;
+}
+
+.h2-title {
+  margin-top: 0.5rem;
+}
+
+.ah1 {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-mainLogo {
+  width: 3.5rem;
+}
+
+.icon-logo {
+  width: 2.9rem;
+}
+
+.img-calendar {
+  width: 2rem;
+}
+
+.title-section-p {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.img-tab {
+  width: 1.5rem;
+}
+
+.img-gallerie {
+  width: 100%;
+}
+
+.img-logo-history {
+  width: 4rem;
+}
+
+.svg-history {
+  margin-right: 0.5rem;
+}
+
+.history-span-match {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.title-section {
+  font-size: 1.5rem;
+}
+
+.next-match-span {
+  font-size: 0.8rem;
+}
+
+.next-match-imgteam {
+  width: 3rem;
+  margin: 1rem;
+}
+
+.scorers-img {
+  width: 1.9rem;
+  margin-right: 0.5rem;
+}
+
+.scorers-goals {
+  margin-right: 2rem;
+}
+
+.div-m {
+  margin: 0 3rem 0 3rem;
+}
+
+.news-img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.icon-asterisk {
+  margin-right: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

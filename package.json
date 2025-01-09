@@ -1,0 +1,12 @@
+{
+  "name": "projectccsports",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "project": "sass --watch scss:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
