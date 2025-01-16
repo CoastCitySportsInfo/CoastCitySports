@@ -1,12 +1,12 @@
 {
-  "name": "projectccsports",
+  "name": "project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "project": "sass --watch scss:css"
+    "file": "sass --watch scss:css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alejandro Ferreyra",
   "license": "ISC",
-  "description": ""
+  "description": "League & Cup"
 }

@@ -1,7 +1,4 @@
-* {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -14,90 +11,117 @@ ol {
   list-style: none;
 }
 
-.p-footer {
-  font-size: 1.3rem;
-}
-
-.h2-title {
-  margin-top: 0.5rem;
-}
-
-.ah1 {
+a {
   text-decoration: none;
   color: black;
 }
 
-.icon-mainLogo {
-  width: 3.5rem;
+main {
+  margin-bottom: 5rem;
 }
 
-.icon-logo {
-  width: 2.9rem;
-}
-
-.img-calendar {
-  width: 2rem;
-}
-
-.title-section-p {
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-
-.img-tab {
-  width: 1.5rem;
-}
-
-.img-gallerie {
+/* header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.img-logo-history {
-  width: 4rem;
+.header-item-a {
+  margin: 0px 1rem 0px 1rem;
+}
+*/
+header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Asegura que esté sobre el contenido */
 }
 
-.svg-history {
-  margin-right: 0.5rem;
+header a {
+  display: inline;
 }
 
-.history-span-match {
-  font-size: 0.8rem;
-  font-weight: 500;
+header a {
+  text-decoration: none;
+  padding: 10px 20px;
 }
 
-.title-section {
+.matches-item-img-logo-cup {
+  width: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+.title {
   font-size: 1.5rem;
 }
 
-.next-match-span {
+.index-item-img-team {
+  width: 2rem;
+  margin: 0px 1rem;
+}
+
+.div-match {
+  margin: 1rem 0px;
+}
+
+.matches-section-2 {
+  margin-top: 1rem;
+}
+
+.table-item {
   font-size: 0.8rem;
 }
 
-.next-match-imgteam {
-  width: 3rem;
-  margin: 1rem;
+.league-item-img-team {
+  width: 1.3rem;
 }
 
-.scorers-img {
-  width: 1.9rem;
-  margin-right: 0.5rem;
+.matches-button {
+  margin: 2rem;
 }
 
-.scorers-goals {
-  margin-right: 2rem;
+.matches-button a {
+  color: white;
 }
 
-.div-m {
-  margin: 0 3rem 0 3rem;
+.matches-section-1 {
+  margin: 0.7rem 0.7rem;
 }
 
-.news-img {
-  width: 2.5rem;
-  margin-right: 1rem;
+.matches-div-pad {
+  margin-top: 2rem;
 }
 
-.icon-asterisk {
-  margin-right: 0.5rem;
+.matches-item-p {
+  font-size: 1rem;
+}
+
+.matches-item-img-logo {
+  width: 2rem;
+}
+
+.matches-item-span {
+  font-size: 0.7rem;
+}
+
+.matches-item-team-img {
+  width: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.matches-item-linea {
+  border-top: 1px solid black;
+  height: 90%;
+  max-width: 95%;
+  margin: 20px auto 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

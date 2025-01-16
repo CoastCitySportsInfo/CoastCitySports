@@ -1,16 +1,34 @@
-.h2-title {
-  margin-top: 0.5rem;
+/* header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.ah1 {
+.header-item-a {
+  margin: 0px 1rem 0px 1rem;
+}
+*/
+
+header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Asegura que esté sobre el contenido */
+}
+
+header a {
+  display: inline;
+}
+
+header a {
   text-decoration: none;
-  color: black;
-}
-
-.icon-mainLogo {
-  width: 3.5rem;
-}
-
-.icon-logo {
-  width: 2.9rem;
+  padding: 10px 20px;
 }
