@@ -72,6 +72,10 @@ header a {
   margin: 1rem 0px;
 }
 
+.section-1 {
+  margin: 0.7rem 0.7rem;
+}
+
 .matches-section-2 {
   margin-top: 1rem;
 }
@@ -84,16 +88,16 @@ header a {
   width: 1.3rem;
 }
 
+.matches-item-img-logo-v1 {
+  margin-bottom: 1.5rem;
+}
+
 .matches-button {
   margin: 2rem;
 }
 
 .matches-button a {
   color: white;
-}
-
-.matches-section-1 {
-  margin: 0.7rem 0.7rem;
 }
 
 .matches-div-pad {
@@ -122,6 +126,15 @@ header a {
   height: 90%;
   max-width: 95%;
   margin: 20px auto 0 auto;
+}
+
+.item-title {
+  font-size: 1.3rem;
+}
+
+.item-p-v1 {
+  font-size: 0.8rem;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
